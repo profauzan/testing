@@ -7,7 +7,7 @@ import (
 	"pustaka-api/book"
 
 	"github.com/gin-gonic/gin"
-	"github.com/go-playground/validator"
+	"github.com/go-playground/validator/v10"
 )
 
 func MainHandler(context *gin.Context) {
